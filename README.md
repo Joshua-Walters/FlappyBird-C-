@@ -1,29 +1,77 @@
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 5.0. Tested on both Windows 10 and Windows 11.
+# FlappyBird-CPP
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
+FlappyBird-CPP is a fast-paced, fun, and interactive Flappy Bird clone coded in C++ using the Raylib graphics library. Designed as a personal project by Josh Walters, it combines smooth gameplay mechanics with engaging visuals and sound effects.
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
+## 🎮 Features
 
-# Video Tutorial
+* Fully playable Flappy Bird clone
+* Smooth, physics-based movement and rotation
+* Dynamic obstacles with random heights
+* Audio effects: wing flap, point scored, collision, and game over
+* Score tracking and high score display
+* Customizable textures and sprites
+* Built with Raylib, easy to extend for new features
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+## ⚡ Tech Stack
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+* **Languages:** C++
+* **Libraries / Frameworks:** Raylib
+* **Tools:** Visual Studio, VS Code
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+## 🛠 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Joshua-Walters/FlappyBird-CPP.git
+cd FlappyBird-CPP
+```
+
+### Install Raylib (for your system)
+
+* **Windows:** Use vcpkg or download precompiled binaries
+* **Linux:** `sudo apt install libraylib-dev`
+* **macOS:** `brew install raylib`
+
+### Build the project
+
+```bash
+g++ main.cpp -o FlappyBird -lraylib -lopengl -lm -lpthread -ldl -lrt -lX11
+```
+
+### Run the game
+
+```bash
+./FlappyBird
+```
+
+## 🎨 Assets
+
+All game assets (sprites, fonts, sounds) are included in the `assets/` folder:
+
+* **Bird sprites:** bird, up, down
+* **Environment:** pipes, flipped pipes, extend textures, old tent
+* **Sounds:** wing, point, hit, die
+* **Fonts:** Flappy font for score display
+
+## 🏗 Gameplay Mechanics
+
+* Click the mouse or press `SPACE` to make the bird flap.
+* Avoid pipes and obstacles to score points.
+* Game ends on collision or falling to the ground.
+* Press `C` to restart after a game over.
+
+## 🌟 Notes
+
+This project is a self-taught C++ exercise exploring Raylib, object-oriented programming, and game development.
+Optimized for learning and experimentation—feel free to fork and extend it!
+
+## 📺 Demo
+
+![Gameplay Screenshot](screenshots/template.png)
+
+## ⚡ Quote
+
+> “Code is like humor. When you have to explain it, it’s bad.” – Cory House
+
+Made with Work by Josh Walters | Computer Engineering Enthusiast | Australia
