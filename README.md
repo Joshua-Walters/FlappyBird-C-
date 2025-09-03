@@ -68,7 +68,11 @@ Optimized for learning and experimentation—feel free to fork and extend it!
 
 ## 📺 Demo
 
-![Gameplay Screenshot](template.png)
+<div style="display: flex; gap: 30px;">
+  <img src="template.png" alt="Gameplay Screenshot 1" width="400">
+  <img src="template2.png" alt="Gameplay Screenshot 2" width="400">
+</div>
+
 
 ## ⚡ Quote
 
