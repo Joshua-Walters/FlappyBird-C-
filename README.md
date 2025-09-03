@@ -68,7 +68,7 @@ Optimized for learning and experimentation—feel free to fork and extend it!
 
 ## 📺 Demo
 
-![Gameplay Screenshot](screenshots/template.png)
+![Gameplay Screenshot](template.png)
 
 ## ⚡ Quote
 
